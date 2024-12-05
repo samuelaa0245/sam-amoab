@@ -73,7 +73,7 @@ body {
 .hero {
     height: calc(100vh - 80px);
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-                url('./Images/hero-bg-img.jpg');
+                url('images/hero-bg-img.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
