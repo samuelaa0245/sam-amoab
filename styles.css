@@ -69,6 +69,7 @@ body {
     background-color: #FF8C00;
 }
 
+/***** Hero Section Begins ******/
 .hero {
     height: calc(100vh - 80px);
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
@@ -86,10 +87,8 @@ body {
 }
 
 .hero-title {
-    font-family: 'Montserrat', sans-serif; /* Use your chosen font */
-    font-weight: 650; /* Set to a heavy weight */
-    font-size: 3.5rem; /* Adjust size if needed */
-    color: white; /* Ensure visibility on the background */
+    font-size: 4rem;
+    font-weight: bold;
     line-height: 1.2;
     margin-bottom: 1.5rem;
 }
@@ -122,8 +121,6 @@ body {
     background-color: #FFA500;
     color: white;
     transform: translateY(-3px); /* Subtle lift on hover */
-}
-
 }
 
 @media (max-width: 1024px) {
