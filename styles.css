@@ -69,6 +69,7 @@ body {
     background-color: #FF8C00;
 }
 
+/***** Hero Section Begins ******/
 .hero {
     height: calc(100vh - 80px);
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
@@ -86,6 +87,7 @@ body {
 }
 
 .hero-title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 4rem;
     font-weight: bold;
     line-height: 1.2;
