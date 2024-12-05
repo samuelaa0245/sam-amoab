@@ -69,10 +69,11 @@ body {
     background-color: #FF8C00;
 }
 
+/***** Hero Section Begins ******/
 .hero {
     height: calc(100vh - 80px);
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-                url('/images/hero-bg-img.jpg');
+                url('images/hero-bg-img.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -86,14 +87,12 @@ body {
 }
 
 .hero-title {
-    font-family: 'Montserrat', sans-serif; /* Use your chosen font */
-    font-weight: 650; /* Set to a heavy weight */
-    font-size: 4rem; /* Adjust size if needed */
-    color: white; /* Ensure visibility on the background */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4rem;
+    font-weight: bold;
     line-height: 1.2;
     margin-bottom: 1.5rem;
 }
-
 
 .hero-title span {
     color: #FFA500;
