@@ -72,7 +72,7 @@ body {
 .hero {
     height: calc(100vh - 80px);
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-                url('../hero-bg-img.jpg');
+                url('./Images/hero-bg-img.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -86,11 +86,14 @@ body {
 }
 
 .hero-title {
-    font-size: 4rem;
-    font-weight: bold;
+    font-family: 'Montserrat', sans-serif; /* Use your chosen font */
+    font-weight: 650; /* Set to a heavy weight */
+    font-size: 3.5rem; /* Adjust size if needed */
+    color: white; /* Ensure visibility on the background */
     line-height: 1.2;
     margin-bottom: 1.5rem;
 }
+
 
 .hero-title span {
     color: #FFA500;
@@ -106,19 +109,21 @@ body {
 .cta-button {
     display: inline-block;
     background-color: white;
-    color: #1B3358;
-    padding: 12px 28px;
-    border-radius: 25px;
+    color: #1B3358; /* Button text color */
+    padding: 16px 32px; /* Adjust padding for size */
+    font-size: 1.25rem; /* Increase font size */
+    border-radius: 30px; /* Keeps the rounded style */
     text-decoration: none;
     font-weight: 600;
-    font-size: 1.1rem;
     transition: all 0.3s ease;
 }
 
 .cta-button:hover {
     background-color: #FFA500;
     color: white;
-    transform: translateY(-2px);
+    transform: translateY(-3px); /* Subtle lift on hover */
+}
+
 }
 
 @media (max-width: 1024px) {
